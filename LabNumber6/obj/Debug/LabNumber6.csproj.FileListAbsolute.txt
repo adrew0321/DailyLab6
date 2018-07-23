@@ -1,0 +1,13 @@
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\bin\Debug\LabNumber6.exe.config
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\bin\Debug\LabNumber6.exe
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\bin\Debug\LabNumber6.pdb
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\obj\Debug\LabNumber6.csprojAssemblyReference.cache
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\obj\Debug\LabNumber6.csproj.CoreCompileInputs.cache
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\obj\Debug\LabNumber6.exe
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\obj\Debug\LabNumber6.pdb
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\bin\Debug\Antlr4.Runtime.Standard.dll
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\bin\Debug\ClassLibrary3.dll
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\bin\Debug\Dice.dll
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\bin\Debug\System.ValueTuple.dll
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\bin\Debug\Dice.pdb
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\obj\Debug\LabNumber6.csproj.CopyComplete
