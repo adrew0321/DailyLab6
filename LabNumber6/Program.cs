@@ -15,13 +15,27 @@ namespace LabNumber6
                 Console.Write("Welcome to the Grand Circus Casino! Roll the dice? (y/n): ");
                 string userInput = UserResponseChecker();
 
-                Console.WriteLine("How many sides should each die have? ");
+                Console.Write("How many sides should each die have? ");
                 int sidesOfDice = int.Parse(Console.ReadLine());
 
                 //***PROCESSING***
 
                 Console.WriteLine(RollDice(sidesOfDice, "Roll 1"));
                 Console.WriteLine(RollDice(sidesOfDice, "Roll 2"));
+                
+
+                if (RollDice(sidesOfDice, "Roll 1") == 1 && RollDice(sidesOfDice, "Roll 2") == 1)
+                {
+                    Console.WriteLine($"{RollDice(sidesOfDice, "Roll 1")} and {RollDice(sidesOfDice, "Roll 2")} makes Snake Eyes!");
+                }
+                else if (RollDice(sidesOfDice, "Roll 1") == 6 && RollDice(sidesOfDice, "Roll 2") == 6)
+                {
+                    Console.WriteLine($"{RollDice(sidesOfDice, "Roll 1")} and {RollDice(sidesOfDice, "Roll 2")} makes Box Cars!");
+                }
+                else if (RollDice(sidesOfDice, "Roll 1") + RollDice(sidesOfDice, "Roll 2") == 7)
+                {
+                    Console.WriteLine($"{RollDice(sidesOfDice, "Roll 1")} and {RollDice(sidesOfDice, "Roll 2")} makes Craps!");
+                }
 
                 //***OUTPUT***
 
@@ -42,6 +56,12 @@ namespace LabNumber6
                         Console.WriteLine("It's been a pleasure working with you");
                         repeat1 = false;
                         continueLoop = false;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input: Please try again...");
+                        repeat1 = false;
+                        continueLoop = true;
                     }
                 }
 
@@ -74,7 +94,6 @@ namespace LabNumber6
         {
             int randomNumb = RandomNumber.Randomness.getNextInt(1, sidesOfDice);
             System.Threading.Thread.Sleep(500);
-            Console.WriteLine(message);
 
             return randomNumb;
         }
