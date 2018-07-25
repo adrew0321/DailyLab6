@@ -7,23 +7,47 @@ namespace LabNumber6
         static void Main(string[] args)
         {
 
+            bool repeat1 = true;
+            while (repeat1)
+            {
+                //***INPUT***
 
-            //***INPUT***
+                Console.Write("Welcome to the Grand Circus Casino! Roll the dice? (y/n): ");
+                string userInput = UserResponseChecker();
 
-            Console.Write("Welcome to the Grand Circus Casino! Roll the dice? (y/n): ");
-            string userInput = UserResponseChecker();
+                Console.WriteLine("How many sides should each die have? ");
+                int sidesOfDice = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("How many sides should each die have? ");
-            int sidesOfDice = int.Parse(Console.ReadLine());
+                //***PROCESSING***
 
-            //***PROCESSING***
+                Console.WriteLine(RollDice(sidesOfDice, "Roll 1"));
+                Console.WriteLine(RollDice(sidesOfDice, "Roll 2"));
 
-            Console.WriteLine(RollDice(sidesOfDice, "Roll 1"));
-            Console.WriteLine(RollDice(sidesOfDice, "Roll 2"));
+                //***OUTPUT***
 
-            //***OUTPUT***
+                bool continueLoop = true;
+                while (continueLoop)
+                {
+
+                    Console.WriteLine("Would you like to roll again? (y/n)");
+                    string continueInput = UserResponseChecker();
+
+                    if (continueInput.ToLower() == "y" || continueInput.ToLower() == "yes")
+                    {
+                        repeat1 = true;
+                        continueLoop = false;
+                    }
+                    else if (continueInput.ToLower() == "n" || continueInput.ToLower() == "no")
+                    {
+                        Console.WriteLine("It's been a pleasure working with you");
+                        repeat1 = false;
+                        continueLoop = false;
+                    }
+                }
 
 
+
+            }
 
         }
 

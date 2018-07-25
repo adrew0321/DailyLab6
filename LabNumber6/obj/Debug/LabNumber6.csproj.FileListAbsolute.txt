@@ -11,3 +11,5 @@ C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\bin
 C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\bin\Debug\System.ValueTuple.dll
 C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\bin\Debug\Dice.pdb
 C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\obj\Debug\LabNumber6.csproj.CopyComplete
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\bin\Debug\Antlr4.Runtime.Standard.xml
+C:\DotNetBootcamp\GrandCircus\C#.NETbootcamp\DailyLabs\LabNumber6\LabNumber6\bin\Debug\System.ValueTuple.xml
